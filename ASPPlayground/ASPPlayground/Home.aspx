@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="ASPPlayground.HomePage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="ASPPlayground.HomePage" MasterPageFile="~/Site1.Master" %>
 
 <!DOCTYPE html>
 
