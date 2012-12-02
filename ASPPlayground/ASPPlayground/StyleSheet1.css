@@ -2,3 +2,9 @@
     color : black;
     font-family : Candara;
 }
+
+.header {
+    background-color: blue;
+    color : white;
+    font-size : large;
+}

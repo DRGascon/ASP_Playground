@@ -12,12 +12,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <div class="header" style="width:80%; height:10%" >
         Welcome to DR Gascon's ASP house of neat things <br />
+        </div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
-    </div>
+
     </form>
 </body>
 </html>
