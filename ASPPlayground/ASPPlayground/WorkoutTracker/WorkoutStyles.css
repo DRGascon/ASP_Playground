@@ -1,0 +1,11 @@
+﻿.header {
+    background-color: blue;
+    color : white;
+    font-size : large;
+    width : 80%;
+    font-family : Calibri;
+}
+
+.tableCell {
+    font-family : Calibri;
+}

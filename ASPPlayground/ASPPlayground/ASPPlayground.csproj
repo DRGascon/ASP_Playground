@@ -58,25 +58,34 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="StyleSheet1.css" />
+    <Content Include="WorkoutTracker\ExerciseEntry.aspx" />
+    <Content Include="WorkoutTracker\WorkoutStyles.css" />
     <Content Include="Web.config" />
-    <Content Include="Home.aspx" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="Clock.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WorkoutTracker\ExerciseEntry.aspx.cs">
+      <DependentUpon>ExerciseEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WorkoutTracker\ExerciseEntry.aspx.designer.cs">
+      <DependentUpon>ExerciseEntry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WorkoutTracker\Workout.Master.cs">
+      <DependentUpon>Workout.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WorkoutTracker\Workout.Master.designer.cs">
+      <DependentUpon>Workout.Master</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
@@ -85,9 +94,17 @@
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Clock.aspx.cs">
+      <DependentUpon>Clock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clock.aspx.designer.cs">
+      <DependentUpon>Clock.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site1.Master" />
+    <Content Include="WorkoutTracker\Workout.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Workout.Master.cs" Inherits="ASPPlayground.Site2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>DR Gascon's Workout Tracker</title>
+    <link rel="stylesheet" href="~/WorkoutTracker/WorkoutStyles.css" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="header" >
+        Workout Tracker <br>
+    </div>
+    <div id="MenuBar">
+        <asp:Table runat="server">
+            <asp:TableRow>
+                <asp:TableCell BorderStyle="Solid" CssClass="tableCell">
+                    Home
+                </asp:TableCell>
+                <asp:TableCell BorderStyle="Solid" CssClass="tableCell">
+                    Entry
+                </asp:TableCell>
+            </asp:TableRow>
+        </asp:Table>
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+    </asp:ContentPlaceHolder>
+
+    </form>
+</body>
+</html>
